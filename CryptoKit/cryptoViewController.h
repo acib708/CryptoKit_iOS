@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cryptoAppDelegate.h"
+#import "cryptoXorViewController.h"
+#import "cryptoAesViewController.h"
 
-@interface cryptoViewController : UIViewController
+@interface cryptoViewController : UIViewController <NSStreamDelegate>
 
 @end

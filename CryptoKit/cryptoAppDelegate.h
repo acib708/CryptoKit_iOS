@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+//Network connection
+@property (strong, nonatomic) NSInputStream  *inputStream;
+@property (strong, nonatomic) NSOutputStream *outputStream;
+
 @end

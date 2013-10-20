@@ -9,6 +9,7 @@
 #import "cryptoAppDelegate.h"
 
 @implementation cryptoAppDelegate
+@synthesize inputStream = _inputStream, outputStream = _outputStream;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     // Override point for customization after application launch.
